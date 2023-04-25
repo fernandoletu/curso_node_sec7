@@ -1,5 +1,7 @@
 const http = require('http')
 
+require('dotenv').config()
+
 const hbs = require('hbs')
 
 const express = require('express')
